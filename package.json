@@ -1,0 +1,31 @@
+{
+  "name": "lopper",
+  "version": "1.0.0",
+  "description": "Test website to test css",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "Devshop",
+    "static",
+    "web",
+    "app",
+    "trainig"
+  ],
+  "author": "ogbeniore",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "9.5.0",
+    "gulp": "4.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "3.0.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-scss": "1.4.0",
+    "postcss-scss": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-livereload": "^4.0.1"
+  }
+}
