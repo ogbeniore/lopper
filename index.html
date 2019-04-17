@@ -5,12 +5,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Enyata</title>
+  <title>Lopper</title>
   <link rel="stylesheet" href="build/css/main.css">
+  <link defer href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Live reloading works..</h1>
+  <header class="home__header">
+    <div class="container">
+      <nav class="navigation__wrapper">
+        <h3 class="navigation__brand">Lopper</h3>
+        <ul class="navigation__menu">
+          <li class="navigation__menu__item active"><a href="index.html">Home</a></li>
+          <li class="navigation__menu__item"><a href="services.html">Services</a></li>
+          <li class="navigation__menu__item"><a href="work.html">Work</a></li>
+          <li class="navigation__menu__item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="navigation__contact">
+          <a href="tel:0121956047">
+            <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.6 5.4V18.9H5.4V5.4H12.6ZM15.3 0H2.7C1.20938 0 0 1.20938 0 2.7V26.1C0 27.5906 1.20938 28.8 2.7 28.8H15.3C16.7906 28.8 18 27.5906 18 26.1V2.7C18 1.20938 16.7906 0 15.3 0ZM2.7 27C2.205 27 1.8 26.595 1.8 26.1V2.7C1.8 2.205 2.205 1.8 2.7 1.8H15.3C15.795 1.8 16.2 2.205 16.2 2.7V26.1C16.2 26.595 15.795 27 15.3 27H2.7ZM13.725 3.6H4.275C3.90375 3.6 3.6 3.90375 3.6 4.275V20.025C3.6 20.3963 3.90375 20.7 4.275 20.7H13.725C14.0962 20.7 14.4 20.3963 14.4 20.025V4.275C14.4 3.90375 14.0962 3.6 13.725 3.6ZM11.025 23.4H6.975C6.60375 23.4 6.3 23.7038 6.3 24.075V24.525C6.3 24.8963 6.60375 25.2 6.975 25.2H11.025C11.3962 25.2 11.7 24.8963 11.7 24.525V24.075C11.7 23.7038 11.3962 23.4 11.025 23.4Z"
+                fill="#FCFCFC" />
+            </svg>
+            (01) 666 - 693 - 456
+          </a>
+        </div>
+        <div class="navigation__menu__toggle">
+          <button class="navigation__menu__toggle__button">
+            <svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="27" height="2" fill="#FCFCFC" />
+              <rect y="7" width="27" height="2" fill="#FCFCFC" />
+              <rect x="9" y="14" width="18" height="2" fill="#FCFCFC" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <div class="hero__text">
+        <p class="text-white">WHAT WE DO?</p>
+        <h1>
+          <span class="text-white">
+            We grow <br>
+          </span>
+          <span class="text-pink">
+            great business
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div class="link__wrapper">
+      <p>Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius.</p>
+      <a href="about.html">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="24" fill="#C4C4C4" fill-opacity="0.05" />
+          <circle cx="24" cy="24" r="23.5" stroke="white" stroke-opacity="0.5" />
+          <path
+            d="M31.3536 24.3536C31.5488 24.1583 31.5488 23.8417 31.3536 23.6464L28.1716 20.4645C27.9763 20.2692 27.6597 20.2692 27.4645 20.4645C27.2692 20.6597 27.2692 20.9763 27.4645 21.1716L30.2929 24L27.4645 26.8284C27.2692 27.0237 27.2692 27.3403 27.4645 27.5355C27.6597 27.7308 27.9763 27.7308 28.1716 27.5355L31.3536 24.3536ZM17 24.5H31V23.5H17V24.5Z"
+            fill="#FCFCFC" />
+        </svg>
+      </a>
+    </div>
+  </header>
+  <section class="services container">
+    <p class="text-pink">WHAT CAN WE DO?</p>
+    <h2 class="text-black">Our services</h2>
+    <div class="services__grid">
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Webdesign</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Webdev</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Marketing</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Marketing</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Webdesign</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+      <div class="services__grid__item">
+        <img src="./img/react-icon.svg" alt="Icon for Feature">
+        <div>
+          <h3 class="text-black">Webdev</h3>
+          <p class="text-light">Tincidunt lobortis feugiat vivamus at augue eget. <br>
+            Risus feugiat in ante metus dictum. <br>
+            Amet aliquam id diam maecenas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="build/js/build.min.js"></script>
 </body>
 

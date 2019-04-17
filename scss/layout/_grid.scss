@@ -1,0 +1,40 @@
+.column {
+  &__1 {
+    width: 100%;
+    flex: 1;
+  }
+  &__1-2 {
+    width: 50%;
+    flex: 50%;
+  }
+  &__1-3 {
+    width: 33.333333%;
+    flex: 33.333333%;
+  }
+  &__1-4 {
+    width: 25%;
+    flex: 25%;
+  }
+  &__1-5 {
+    width: 20%;
+    flex: 20%;
+  }
+  &__1-6 {
+    width: 16.66667%;
+    flex: 16.66667%;
+  }
+  &__1-7 {
+    width: 14.285%;
+    flex: 14.285%;
+  }
+  &__1-8 {
+    width: 12.5%;
+    flex: 12.5%;
+  }
+}
+.container {
+  padding: 0 10em;
+  @media screen and (max-width: 768px) {
+    padding: 0 2em;
+  }
+}
